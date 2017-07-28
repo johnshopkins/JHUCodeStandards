@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="JHU">
+  <description>JHU coding standard</description>
+  <rule ref="PSR2"/>
+
+  <rule ref="PSR2.WhiteSpace.ScopeIndent">
+    <properties>
+      <property name="indent" value="2"/>
+    </properties>
+  </rule>
+
+</ruleset>
