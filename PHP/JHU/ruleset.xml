@@ -3,7 +3,7 @@
   <description>JHU coding standard</description>
   <rule ref="PSR2"/>
 
-  <rule ref="PSR2.WhiteSpace.ScopeIndent">
+  <rule ref="Generic.WhiteSpace.ScopeIndent">
     <properties>
       <property name="indent" value="2"/>
     </properties>
