@@ -3,11 +3,21 @@
   <description>JHU coding standard</description>
 
   <rule ref="PSR2">
-    <!-- allow for spaces before andafter opening a control structure for readability -->
+
+    <!-- allow classes and methods without camel caps (useful for dynamically called classes) -->
+    <exclude name="Squiz.Classes.ValidClassName.NotCamelCaps"/>
+    <exclude name="PSR1.Methods.CamelCapsMethodName.NotCamelCaps"/>
+
+    <!-- allow for spaces before and after opening a control structure for readability -->
     <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingBeforeClose"/>
     <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpen"/>
 
+    <!-- do not enforce line length -->
     <exclude name="Generic.Files.LineLength"/>
+
+    <!-- for the api $_links, $_embedded, etc... -->
+    <exclude name="PSR2.Classes.PropertyDeclaration.Underscore"/>
+    x
   </rule>
 
   <!-- 2 space indent for multiline function declarations -->
@@ -23,5 +33,9 @@
       <property name="indent" value="2"/>
     </properties>
   </rule>
+
+  <!-- check PHP compatibility -->
+  <rule ref="PHPCompatibility"/>
+  <config name="testVersion" value="7.1"/>
 
 </ruleset>
