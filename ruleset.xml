@@ -34,8 +34,4 @@
     </properties>
   </rule>
 
-  <!-- check PHP compatibility -->
-  <rule ref="PHPCompatibility"/>
-  <config name="testVersion" value="7.1"/>
-
 </ruleset>
