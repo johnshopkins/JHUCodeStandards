@@ -18,7 +18,7 @@
 
     <!-- for the api $_links, $_embedded, etc... -->
     <exclude name="PSR2.Classes.PropertyDeclaration.Underscore"/>
-    x
+
   </rule>
 
   <!-- 2 space indent for multiline function declarations -->
