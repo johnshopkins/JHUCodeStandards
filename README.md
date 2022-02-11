@@ -2,7 +2,6 @@
 
 ```bash
 cd ~/www
-mkdir CodeStandards && cd CodeStandards
-git clone git@github.com:johnshopkins/JHUCodeStandards.git
+git clone git@github.com:johnshopkins/JHUCodeStandards.git CodeStandards
 phpcs --config-set installed_paths ~/www/CodeStandards/JHUCodeStandards
 ```
