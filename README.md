@@ -9,4 +9,5 @@ phpcs --config-set installed_paths ~/www/CodeStandards/JHUCodeStandards
 
 # make sure installation succeeded
 phpcs -i
+The installed coding standards are MySource, PEAR, PSR1, PSR12, PSR2, Squiz, Zend and JHUCodeStandards
 ```
